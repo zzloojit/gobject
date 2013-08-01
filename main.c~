@@ -1,0 +1,7 @@
+#include "my-file.h"
+
+static void
+file_print (gpointer gobject, gpointer user_data)
+{
+  g_printf("invoking file_print!\n");
+}
